@@ -1,13 +1,10 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int c = 0, lines = 0, tabs = 0, espaces = 0;
 
-    while ((c = getchar()) != EOF)
-    {
-        switch (c)
-        {
+    while ((c = getchar()) != EOF) {
+        switch (c) {
         case '\n':
             lines++;
             break;

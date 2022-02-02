@@ -1,11 +1,9 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int c;
     long nc;
-    while ((c = getchar()) != EOF)
-    {
+    while ((c = getchar()) != EOF) {
         nc++;
     }
 
